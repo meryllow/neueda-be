@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-            GIT_URL = "https://github.com/meryllow/neueda-temp.git"
+            GIT_URL = "https://github.com/meryllow/neueda-be.git"
             IMAGE_NAME = "payments"
             DBUSER = credentials('DBUSER')
             DBPASSWORD = credentials('DBPASSWORD')
